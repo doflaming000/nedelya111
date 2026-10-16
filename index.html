@@ -169,6 +169,8 @@
   @keyframes fadeUp{from{opacity:0;transform:translateY(26px);}to{opacity:1;transform:none;}}
   .scroll-hint{position:absolute;bottom:14px;left:50%;transform:translateX(-50%);z-index:5;color:rgba(234,244,236,.65);font-family:var(--mono);font-size:.6rem;letter-spacing:.34em;text-transform:uppercase;display:flex;flex-direction:column;align-items:center;gap:.45rem;animation:fadeUp 1s 1.7s both;}
   .scroll-hint i{width:1px;height:36px;background:linear-gradient(var(--neon),transparent);animation:drip 1.8s ease-in-out infinite;transform-origin:top;}
+  .duo .frame{aspect-ratio:16/9;}
+  .duo .frame img{height:100%;object-fit:cover;}
   @keyframes drip{0%{transform:scaleY(0);}55%{transform:scaleY(1);}100%{transform:scaleY(1);opacity:0;}}
   /* ==== tape ==== */
   .tape{
